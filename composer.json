@@ -1,0 +1,25 @@
+{
+    "name": "bernardrobbins/module-addnewcheckoutstep",
+    "description": "Adobe Tutorial - Add New Checkout Step - https://developer.adobe.com/commerce/php/tutorials/frontend/custom-checkout/add-new-step/",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Bernard Robbins",
+            "email": "bernardrobbinsiii@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "magento/module-checkout" : "^100.4.6"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "BernardRobbins\\AddNewCheckoutStep\\": ""
+        }
+    }
+}
